@@ -153,23 +153,11 @@ font-family:
 'Inter',
 sans-serif;
 
-background:
-
-radial-gradient(
-circle at top right,
-rgba(255,123,28,.08),
-transparent 30%
-),
-
-linear-gradient(
-180deg,
-#030814,
-#071325
-);
-
 color:white;
 
 overflow-x:hidden;
+
+position:relative;
 
 }
 

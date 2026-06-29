@@ -319,3 +319,67 @@ margin-top:10px;
 }
 
 }
+
+@media(max-width:768px){
+
+/* ocultar fila grande */
+
+.contact-metrics{
+
+display:none;
+
+}
+
+
+
+/* meter las métricas dentro tarjeta */
+
+.mini-stats{
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:10px;
+
+margin-top:20px;
+
+}
+
+
+
+.mini-stats div{
+
+padding:14px 10px;
+
+border-radius:16px;
+
+background:
+
+rgba(255,255,255,.03);
+
+}
+
+
+
+.mini-stats span{
+
+font-size:22px;
+
+font-weight:800;
+
+}
+
+
+
+.mini-stats p{
+
+font-size:12px;
+
+margin-top:6px;
+
+opacity:.7;
+
+}
+
+}
