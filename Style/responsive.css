@@ -1142,43 +1142,67 @@ font-size:13px;
 }
 
 }
+/* =========================
+MÓVIL FINAL
+========================= */
+
 @media(max-width:768px){
 
-body{
-
-background:
-
-radial-gradient(
-circle at top right,
-rgba(255,123,28,.08),
-transparent 35%
-),
-
-radial-gradient(
-circle at bottom left,
-rgba(54,90,255,.06),
-transparent 35%
-),
-
-linear-gradient(
-180deg,
-#030817,
-#07111f,
-#040b19
-);
-
+.container{
+width:94%;
 }
 
-body::before{
+/* HERO */
 
-opacity:.8;
-
+.hero{
+padding-top:120px;
 }
 
-body::after{
+.hero h1{
+font-size:44px;
+line-height:1.08;
+}
 
-opacity:.6;
+.hero p{
+font-size:17px;
+}
 
+/* TARJETAS */
+
+.stats .container{
+grid-template-columns:1fr 1fr;
+gap:14px;
+}
+
+.stats article{
+padding:28px;
+min-height:130px;
+}
+
+.stats h3{
+font-size:38px;
+}
+
+.stats p{
+font-size:14px;
+}
+
+/* SOBRE MI */
+
+.about-image img{
+height:360px;
+}
+
+/* CTA */
+
+.cta .container{
+padding:36px;
+}
+
+/* FOOTER */
+
+footer{
+padding:70px 0 30px;
 }
 
 }
