@@ -1,0 +1,37 @@
+@media(max-width:768px){
+
+.contact-header{
+
+top:20px;
+
+}
+
+
+
+.back-home{
+
+padding:
+
+14px 22px;
+
+}
+
+
+
+.back-home span{
+
+display:none;
+
+}
+
+
+
+.back-home i{
+
+width:46px;
+
+height:46px;
+
+}
+
+}
